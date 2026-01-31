@@ -1,9 +1,13 @@
-import React from 'react'
+import Hello from "@/app/components/hello";
 
-const page = () => {
+const Home = () => {
+  console.log("what is happening here")
   return (
+      <main>
     <div>Page</div>
+        <Hello/>
+      </main>
   )
 }
 
-export default page
+export default Home
